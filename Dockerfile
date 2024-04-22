@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17-jdk-jammy
+FROM openjdk:17-oracle
 
 WORKDIR /app
 COPY .mvn/ .mvn
